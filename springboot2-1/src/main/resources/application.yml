@@ -1,0 +1,18 @@
+server:
+  port: 8081
+book:
+  name: SpringCloudInAction
+  author: xialiang
+  desc: ${book.author}  is writing《${book.name}》
+#spring:
+#  profiles:
+#    active: test
+#  config:
+#    activate:
+#      on-profile: "dev"
+#name: dev.didispace.com
+swagger:
+  basic:
+    enable: true
+    username: admin
+    password: 123456
